@@ -163,11 +163,11 @@ iframe {
   overflow: hidden;
   padding: 77px 55px 33px 55px;
 
-  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
-  -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
-  -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -199,6 +199,29 @@ iframe {
   position: relative;
   height: 35px;
 }
+select {
+  border:2px solid rgb(236, 231, 231) ;
+  border-radius: 4px;
+  display: inline-block;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.form1 {
+  font-size: 12px;
+  background-image:    url('../images/icons/arrows.png');
+  background-position: calc(100% - .5rem), 100% 0;
+  background-size:  1.5em 1.5em;
+  background-repeat: no-repeat;
+}
+option{
+  font: 12px/3 Poppins-Regular;;
+}
+
 .checkbox{
   margin-top: 20px;
   font-weight: bold;
@@ -248,6 +271,7 @@ input::placeholder {
 .btn-show-icon {
   font-size: 15px;
   color: #999999;
+  margin-right: 5px;
 
   display: -webkit-box;
   display: -webkit-flex;
